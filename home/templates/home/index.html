@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my web site</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body class="home-page">
+    <nav claa="navbar">
+        <a href="{% url 'home' %}">Home</a>
+        <a href="/about/">About</a>
+        <a href="/contact/">Contact</a>
+        <a href="/login/">Login</a> 
+    </nav>
+    <div class="content">
+    <h1>Welcome to My Site</h1>
+    <p>This is the home page of our Django application.</p>
+    <button>click here</button>
+    </div>
+
+</body>
+</html>

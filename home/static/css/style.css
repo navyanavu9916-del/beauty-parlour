@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+    font-family: 'segoe UI',sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #ffecd2, #abfc9f);
+}
+    .navbar {
+        background: rgba(255, 255, 255, 0.8);
+        padding: 10px 20px;
+        display: flex;
+        text-align: center;
+        
+}
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar a:hover {
+    color: green;
+}
+.content{
+    text-align: center;
+    padding: 100px;
+}
+
+h1 {
+    color: rgb(255, 233, 192);
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color:#333;
+}
+
+button {
+    padding: 10px 20px;
+    background: lightgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+button:hover {
+    background: green;
+    transform: scale(1.05);
+}  
+ .login-page {
+    background: linear-gradient(to right,#ff9a3c,#ff5e00);
+    height:100vh;
+
+}
+.home-page{
+    background:linear-gradient(to right,#ff9a3c, #ff5e00);
+  height: 100vh;
+  text-align: center;
+
+}
+.home-page h1 {
+    color: rgb(182, 31, 31);
+}
+.home-page p {
+    color: #fff3e0;
+}
+.home-page button {
+    background: white;
+    color: #ff5e00;
+
+}
+.home-page button:hover {
+    background: #ff5e00;
+}
+    
+ .contact-page{
+    background:linear-graadient(to right,#f7971e, #ffd200);
+    height: 100vh;
+    font-family: sans-serif;
+
+
+ } 
+ .contact-container{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    width: 400px;
+    border-radius:10px;
+    text-align: center;
+
+    
+ }  
+ .contactcontainer input, .contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+ }
+ .contact-container button {
+    padding: 10px 20px;
+    background: lightgreen;
+    color: white;
+    border-radius:5px;
+ }
+ .contact-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.contact-image{
+    width:300px;
+}
+
+    
