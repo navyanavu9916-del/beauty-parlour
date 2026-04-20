@@ -10,4 +10,4 @@ def home_page(request):
         return render(request, 'home/home.html')
 # Create your views here.
 def index(request):
-        return render(request, 'home/index.html')
+        return render(request, 'index.html')
